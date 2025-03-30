@@ -1,0 +1,89 @@
+# Image Scaling Tool - Release Notes
+
+**Version:** 1.0  
+**Author:** devall6@yahoo.com  
+**Release Date:** March 30, 2025
+
+---
+
+## Overview
+
+The Image Scaling Tool is a standalone Python 3 utility designed for digital artists and AI art creators using image-to-image generation tools such as **Stable Diffusion (Automatic1111)**. It helps calculate optimal scaling dimensions for images while maintaining their original aspect ratio, allowing users to either downscale or upscale images to fit within GPU memory constraints (e.g., 1024×1024 limit).
+
+---
+
+## Features
+
+- 🧮 **Aspect Ratio Preservation:** Ensures all scaled images retain their original proportions.
+- 🔽 **Downscale Mode:** Ideal for high-resolution source images that exceed GPU memory.
+- 🔼 **Upscale Mode:** Helps enhance smaller images to take full advantage of higher resolutions.
+- ⚙️ **Command-Line Tool:** Simple and fast; easily run from any terminal window.
+- 📋 **Tabular Output:** Presents width, height, and scale factor in a readable format.
+
+---
+
+## Requirements
+
+- Python 3.6 or higher
+- NumPy (install via `pip install numpy`)
+
+---
+
+## Installation
+
+1. Clone or download the repository:
+
+```bash
+git clone https://github.com/your-username/image-scaling-tool.git
+cd image-scaling-tool
+```
+
+2. Make sure dependencies are installed:
+
+```bash
+pip install numpy
+```
+
+3. Run the tool:
+
+```bash
+python image_scaling_tool.py WIDTH HEIGHT --max MAX_SIZE --mode [downscale|upscale]
+```
+
+Example:
+```bash
+python image_scaling_tool.py 2048 1152 --max 1024 --mode downscale
+```
+
+---
+
+## Use Cases
+
+- Preventing VRAM crashes when using large images in AI tools.
+- Batch-prepping images for consistent scaling across projects.
+- Quickly evaluating aspect-safe resolutions for art workflows.
+
+---
+
+## Future Enhancements (Planned)
+
+- GUI version using Tkinter or PyQt
+- JSON/CSV export of scaling options
+- Integration with PIL to auto-resize images
+- Web-based version with drag-and-drop support
+
+---
+
+## License
+
+This project is open-source and free to use. License details will be added in the GitHub repository.
+
+---
+
+## Feedback
+
+For questions, suggestions, or feature requests, please contact: **devall6@yahoo.com**
+
+Happy creating! 🎨✨
+
+

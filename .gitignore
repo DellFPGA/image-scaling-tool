@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs and caches
+*.log
+*.sqlite3
+.cache/
+*.egg-info/
+
+# OS Generated
+Thumbs.db
+ehthumbs.db
+
+# Compiled binaries
+*.so
+*.dll
+*.exe
+*.o
+*.a
+*.out
+
+# PyInstaller
+/dist/
+/build/
+*.spec
+
