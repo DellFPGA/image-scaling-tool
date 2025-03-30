@@ -1,4 +1,10 @@
 # image-scaling-tool
+![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Cross--Platform-lightgrey)
+![AI Art Tool](https://img.shields.io/badge/AI%20Art%20Tool-Image%20Scaler-purple)
+
+# image-scaling-tool
 CLI utility to upscale/downscale images while preserving aspect ratio for AI art workflows
 # Image Scaling Tool
 
